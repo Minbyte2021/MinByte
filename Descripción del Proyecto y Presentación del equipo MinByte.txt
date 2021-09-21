@@ -18,10 +18,10 @@ especialista en Sistemas de Información Geogragráfica, curso especialización 
 tengo 26 años y vivo en la ciudad de Bogotá. Me desempeño como Especialista SIG en un grupo consultor de Ordenamiento
 Territorial y proyectos urbanísticos.
 
-# Milton Calderón Ibata – Producto Owner: 
+# Milton Calderón Ibata – Producto Owner: Soy estudiante de licenciatura en matemáticas, actualmente vivo en Campoalegre(Huila). con gran disposición para aprender.
 
 # Oscar David Ruíz Riaño – Administrador de DB: 
 
 # Jenny Paola León Vargas – Scrum Master: 
 
-# Genderson Mauricio Orozco Rendon – Analista: Soy Ingeniero Electrónico y técnico en producción de Hidrocarburos, tengo 27 años y actualmente vivo en la ciudad de Villavicencio Meta.  
+# Genderson Mauricio Orozco Rendon – Analista: Soy Ingeniero Electrónico y técnico en producción de Hidrocarburos, tengo 27 años y actualmente vivo en la ciudad de Villavicencio Meta.
