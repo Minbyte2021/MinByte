@@ -1,0 +1,24 @@
+
+-----------------------------------------------------------------------
+
+Planteamiento de la situación problema a desarrollar:
+
+Se propone analizar, diseñar y construir una aplicación software que permita controlar las ventas físicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento.
+
+-----------------------------------------------------------------------
+
+Sprint 1: Creación de repositorio/asignación de roles.
+
+-----------------------------------------------------------------------
+
+Equipo 15:  MinByte 
+
+# John Alexander Rojas – Developer: 
+
+# Milton Calderón Ibata – Producto Owner: 
+
+# Oscar David Ruíz Riaño – Administrador de DB: 
+
+# Jenny Paola León Vargas – Scrum Master: 
+
+# Genderson Mauricio Orozco Rendon – Analista: Soy Ingeniero Electrónico y técnico en producción de Hidrocarburos, tengo 27 años y actualmente vivo en la ciudad de Villavicencio Meta.  
