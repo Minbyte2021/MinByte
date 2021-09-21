@@ -13,7 +13,10 @@ Sprint 1: Creación de repositorio/asignación de roles.
 
 Equipo 15:  MinByte 
 
-# John Alexander Rojas – Developer: 
+# John Alexander Rojas – Developer: Tecnólogo en Gestión Ambiental y Servicios Públicos, Ingeniero Ambiental, 
+especialista en Sistemas de Información Geogragráfica, curso especialización en Ambiente y Desarrollo Local,
+tengo 26 años y vivo en la ciudad de Bogotá. Me desempeño como Especialista SIG en un grupo consultor de Ordenamiento
+Territorial y proyectos urbanísticos.
 
 # Milton Calderón Ibata – Producto Owner: 
 
