@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Usuario_Admin_Maestro</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/sweetalert2.css">
+	<link rel="stylesheet" href="css/material.min.css">
+	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/material.min.js" ></script>
+	<script src="js/sweetalert2.min.js" ></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js" ></script>
+	<script src="js/main.js" ></script>
+</head>
+<body>
+
+	<!-- Barra navLateral Izq-->
+
+    <section class="full-width navLateral">
+		<div class="full-width navLateral-bg btn-menu"></div>
+		<div class="full-width navLateral-body">
+			<div class="full-width navLateral-body-logo text-center tittles">
+				<i class="zmdi zmdi-close btn-menu"></i> MinByte 
+			</div>
+			<figure class="full-width navLateral-body-tittle-menu">
+				<div>
+					<img src="Imagen" alt="Imagen" class="img-responsive">
+				</div>
+				<figcaption>
+					<span>
+						Nombre Completo<br>
+						<small>Admin</small>
+					</span>
+				</figcaption>
+			</figure>
+			<nav class="full-width">
+				<ul class="full-width list-unstyle menu-principal">
+					<li class="full-width">
+						<a href="home.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-view-dashboard"></i>
+							</div>
+							<div class="navLateral-body-cr">
+								INICIO
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="#!" class="full-width btn-subMenu">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-case"></i>
+							</div>
+							<div class="navLateral-body-cr">
+								ADMINISTRADOR
+							</div>
+							<span class="zmdi zmdi-chevron-left"></span>
+						</a>
+						<ul class="full-width menu-principal sub-menu-options">
+							<li class="full-width">
+								<a href="company.html" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-balance"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										TIENDA
+									</div>
+								</a>
+							</li>
+							<li class="full-width">
+								<a href="providers.html" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-truck"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										PROVEEDORES
+									</div>
+								</a>
+							</li>
+							<li class="full-width">
+								<a href="payments.html" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-card"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										PAGOS
+									</div>
+								</a>
+							</li>
+							<li class="full-width">
+								<a href="categories.html" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-label"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										CATEGORIAS
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="#!" class="full-width btn-subMenu">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-face"></i>
+							</div>
+							<div class="navLateral-body-cr">
+								USUARIOS
+							</div>
+							<span class="zmdi zmdi-chevron-left"></span>
+						</a>
+						<ul class="full-width menu-principal sub-menu-options">
+							<li class="full-width">
+								<a href="admin.html" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-account"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										ADMINISTRADORES
+									</div>
+								</a>
+							</li>
+                            <li class="full-width">
+								<a href="vendors.html" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-accounts"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										VENDEDORES
+									</div>
+								</a>
+							</li>
+							<li class="full-width">
+								<a href="client.html" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-accounts"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										CLIENTES
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="products.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-washing-machine"></i>
+							</div>
+							<div class="navLateral-body-cr">
+								PRODUCTOS
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="sales.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-shopping-cart"></i>
+							</div>
+							<div class="navLateral-body-cr">
+								VENTAS
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="inventory.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-store"></i>
+							</div>
+							<div class="navLateral-body-cr">
+								INVENTARIO
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="#!" class="full-width btn-subMenu">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-wrench"></i>
+							</div>
+							<div class="navLateral-body-cr">
+								AJUSTES
+							</div>
+							<span class="zmdi zmdi-chevron-left"></span>
+						</a>
+						<ul class="full-width menu-principal sub-menu-options">
+							<li class="full-width">
+								<a href="#!" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-widgets"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										OPCIÓN 1
+									</div>
+								</a>
+							</li>
+							<li class="full-width">
+								<a href="#!" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-widgets"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										OPCIÓN 2
+									</div>
+								</a>
+							</li>
+                            <li class="full-width">
+								<a href="#!" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-widgets"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										OPCIÓN 3
+									</div>
+								</a>
+							</li>
+                            <li class="full-width">
+								<a href="#!" class="full-width">
+									<div class="navLateral-body-cl">
+										<i class="zmdi zmdi-widgets"></i>
+									</div>
+									<div class="navLateral-body-cr">
+										OPCIÓN Etc.
+									</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+
+	<!-- Contenido de Página -->
+
+	<section class="full-width pageContent">
+		
+        <!-- navBar -->
+
+		<div class="full-width navBar">
+			<div class="full-width navBar-options">	
+				<nav class="navBar-options-list">
+					<ul class="list-unstyle">
+                        <li class="text-condensedLight noLink" ><small>Grupo 15</small></li>
+						<li class="noLink">
+							<figure>
+								<img src="Imagen" alt="Imagen" class="img-responsive">
+							</figure>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<section class="full-width header-well">
+			<div class="full-width header-well-icon">
+				<i class="zmdi zmdi-washing-machine"></i>
+			</div>
+			<div class="full-width header-well-text">
+				<p class="text-condensedLight">
+					Texto o Párrafo de Información e Indicaciones
+				</p>
+			</div>
+		</section>
+		<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+			<div class="mdl-tabs__tab-bar">
+				<a href="#tabNewUsuario" class="mdl-tabs__tab is-active">USUARIO</a>
+				<a href="#tabListAdmin" class="mdl-tabs__tab">LISTA DE USUARIOS</a>
+			</div>
+			<div class="mdl-tabs__panel is-active" id="tabNewUsuario">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--12-col">
+						<div class="full-width panel mdl-shadow--2dp">
+							<div class="full-width panel-tittle bg-primary text-center tittles">
+								Administrador - Vendedor
+							</div>
+							<div class="full-width panel-content">
+								<form>
+									<div class="mdl-grid">
+										<div class="mdl-cell mdl-cell--12-col">
+									        <legend class="text-condensedLight"><i class="zmdi zmdi-border-color"></i> &nbsp; DATOS BÁSICOS</legend><br>
+									    </div>
+									    <div class="mdl-cell mdl-cell--12-col">
+											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+												<input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="DNIAdmin">
+												<label class="mdl-textfield__label" for="DNIAdmin">NIT</label>
+												<span class="mdl-textfield__error">NIT Inválido</span>
+											</div>
+									    </div>
+									    <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+												<input class="mdl-textfield__input" type="text" pattern="-?[A-Za-záéíóúÁÉÍÓÚ ]*(\.[0-9]+)?" id="NameAdmin">
+												<label class="mdl-textfield__label" for="NameAdmin">Nombres</label>
+												<span class="mdl-textfield__error">Nombre Inválido</span>
+											</div>
+									    </div>
+										<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+												<input class="mdl-textfield__input" type="text" pattern="-?[A-Za-záéíóúÁÉÍÓÚ ]*(\.[0-9]+)?" id="LastNameAdmin">
+												<label class="mdl-textfield__label" for="LastNameAdmin">Apellidos</label>
+												<span class="mdl-textfield__error">Apellido Inválido</span>
+											</div>
+										</div>
+										<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+												<input class="mdl-textfield__input" type="tel" pattern="-?[0-9+()- ]*(\.[0-9]+)?" id="phoneAdmin">
+												<label class="mdl-textfield__label" for="phoneAdmin">Teléfono</label>
+												<span class="mdl-textfield__error">Número Teléfono Inválido</span>
+											</div>
+										</div>
+										<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+												<input class="mdl-textfield__input" type="email" id="emailAdmin">
+												<label class="mdl-textfield__label" for="emailAdmin">E-mail</label>
+												<span class="mdl-textfield__error">E-mail Inválido</span>
+											</div>
+										</div>
+										<div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+												<input class="mdl-textfield__input" type="text" id="addressAdmin">
+												<label class="mdl-textfield__label" for="addressAdmin">Dirección</label>
+												<span class="mdl-textfield__error">Dirección Inválida</span>
+											</div>
+										</div>
+										<div class="mdl-cell mdl-cell--12-col">
+									        <legend class="text-condensedLight"><i class="zmdi zmdi-border-color"></i> &nbsp; DETALLES DE LA CUENTA</legend><br>
+									    </div>
+                                        <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+												<input class="mdl-textfield__input" type="text" id="RolAdmin">
+												<label class="mdl-textfield__label" for="RolAdmin">Rol (Admin - Vendedor)</label>
+												<span class="mdl-textfield__error">Rol Inválido</span>
+											</div>
+										</div>
+										<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+												<input class="mdl-textfield__input" type="text" pattern="-?[A-Za-z0-9áéíóúÁÉÍÓÚ]*(\.[0-9]+)?" id="UserNameAdmin">
+												<label class="mdl-textfield__label" for="UserNameAdmin">Nombre de Usuario</label>
+												<span class="mdl-textfield__error">Nombre de Usuario Inválido</span>
+											</div>
+										</div>
+										<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+											<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+												<input class="mdl-textfield__input" type="password" id="passwordAdmin">
+												<label class="mdl-textfield__label" for="passwordAdmin">Contraseña</label>
+												<span class="mdl-textfield__error">Contraseña Inválida</span>
+											</div>
+										</div>
+										<div class="mdl-cell mdl-cell--12-col">
+									        <legend class="text-condensedLight"><i class="zmdi zmdi-border-color"></i> &nbsp; ELIGE IMAGEN</legend><br>
+									    </div>
+										<div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet">
+											<div class="mdl-grid">
+												<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+													<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+														<input type="radio" id="option-1" class="mdl-radio__button" name="options" value="Imagen">
+														<img src="Imagen" alt="Foto" style="height: 45px; width="45px;" ">
+														<span class="mdl-radio__label">Img 1</span>
+													</label>
+											    </div>
+											    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+													<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+														<input type="radio" id="option-2" class="mdl-radio__button" name="options" value="Imagen">
+														<img src="Imagen" alt="Foto" style="height: 45px; width="45px;" ">
+														<span class="mdl-radio__label">Img 2</span>
+													</label>
+											    </div>
+											    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+													<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-3">
+														<input type="radio" id="option-3" class="mdl-radio__button" name="options" value="Imagen">
+														<img src="Imagen" alt="Foto" style="height: 45px; width="45px;" ">
+														<span class="mdl-radio__label">Img 3</span>
+													</label>
+											    </div>
+											    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+													<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-4">
+														<input type="radio" id="option-4" class="mdl-radio__button" name="options" value="Imagen">
+														<img src="Imagen" alt="Foto" style="height: 45px; width="45px;" ">
+														<span class="mdl-radio__label">Img 4</span>
+													</label>
+											    </div>
+											</div>
+										</div>
+									</div>
+									<p class="text-center">
+										<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored bg-primary" id="btn-addAdmin">
+											<i class="zmdi zmdi-plus"></i>
+										</button>
+										<div class="mdl-tooltip" for="btn-addAdmin">Agregar Usuario</div>
+									</p>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mdl-tabs__panel" id="tabListAdmin">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--8-col-desktop mdl-cell--2-offset-desktop">
+						<div class="full-width panel mdl-shadow--2dp">
+							<div class="full-width panel-tittle bg-success text-center tittles">
+								Estado de los Usuarios
+							</div>
+							<div class="full-width panel-content">
+								<form action="#">
+									<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+										<label class="mdl-button mdl-js-button mdl-button--icon" for="searchAdmin">
+											<i class="zmdi zmdi-search"></i>
+										</label>
+										<div class="mdl-textfield__expandable-holder">
+											<input class="mdl-textfield__input" type="text" id="searchAdmin">
+											<label class="mdl-textfield__label"></label>
+										</div>
+									</div>
+								</form>
+								<div class="mdl-list">
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class="zmdi zmdi-account mdl-list__item-avatar"></i>
+											<span>1. Nombre de Usuario: NIT: </span>
+                                            <span class="mdl-list__item-sub-title">ROL: Administrador</span>
+                                            <span class="mdl-list__item-sub-title">ESTADO: Pendiente </span>
+                                            <p></p>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><i class="zmdi zmdi-more"></i></a><button>Editar</button>
+									</div>
+									<li class="full-width divider-menu-h"></li>
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class="zmdi zmdi-account mdl-list__item-avatar"></i>
+											<span>2. Nombre de Usuario: Nit: </span>
+											<span class="mdl-list__item-sub-title">ROL: Vendedor</span>
+                                            <span class="mdl-list__item-sub-title">ESTADO: Autorizado</span>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><i class="zmdi zmdi-more"></i></a><button>Editar</button>
+									</div>
+									<li class="full-width divider-menu-h"></li>
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class="zmdi zmdi-account mdl-list__item-avatar"></i>
+											<span>3. Nombre de Usuario: NIT: </span>
+											<span class="mdl-list__item-sub-title">ROL: Administrador</span>
+                                            <span class="mdl-list__item-sub-title">ESTADO: No Autorizado</span>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><i class="zmdi zmdi-more"></i></a><button>Editar</button>
+									</div>
+									<li class="full-width divider-menu-h"></li>
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class="zmdi zmdi-account mdl-list__item-avatar"></i>
+											<span>4. Nombre de Usuario: NIT: </span>
+											<span class="mdl-list__item-sub-title">ROL: Vendedor</span>
+                                            <span class="mdl-list__item-sub-title">ESTADO: Pendiente</span>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><i class="zmdi zmdi-more"></i></a><button>Editar</button>
+									</div>
+									<li class="full-width divider-menu-h"></li>
+									<div class="mdl-list__item mdl-list__item--two-line">
+										<span class="mdl-list__item-primary-content">
+											<i class="zmdi zmdi-account mdl-list__item-avatar"></i>
+											<span>5. Nombre de Usuario: NIT: </span>
+											<span class="mdl-list__item-sub-title">ROL: Vendedor</span>
+                                            <span class="mdl-list__item-sub-title">ESTADO: Autorizado</span>
+										</span>
+										<a class="mdl-list__item-secondary-action" href="#!"><i class="zmdi zmdi-more"></i></a><button>Editar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
